@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="outer_div">
+
+    
+    @Html.ActionLink("Welcome to Interview App. Click Here To Start", "Index", "personDetails", new { area = "person" }, new { @class = "btn btn-primary" })
+</div>

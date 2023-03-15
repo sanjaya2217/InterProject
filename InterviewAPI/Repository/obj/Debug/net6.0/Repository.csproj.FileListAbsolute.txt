@@ -1,0 +1,15 @@
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\bin\Debug\net6.0\Repository.deps.json
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\bin\Debug\net6.0\Repository.dll
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\bin\Debug\net6.0\Repository.pdb
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\bin\Debug\net6.0\DataAccessLayer.dll
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\bin\Debug\net6.0\DataAccessLayer.pdb
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\Repository.dll
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\refint\Repository.dll
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\Repository.pdb
+E:\Tutorial\WebAPI\TestAPI\TestAPI\Repository\obj\Debug\net6.0\ref\Repository.dll

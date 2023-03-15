@@ -1,0 +1,510 @@
+2022-11-27 15:59:48.9657|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-27 15:59:49.0526|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2022-11-27 16:00:27.2972|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-27 23:53:41.2175|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-27 23:53:41.2620|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2022-11-27 23:53:56.9194|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-27 23:53:56.9359|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2022-11-27 23:54:16.1090|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-27 23:54:16.1090|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2022-11-28 19:40:04.8789|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-28 19:40:05.2777|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2022-11-28 19:40:43.6189|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-28 19:40:43.6874|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2022-11-28 19:47:49.7195|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-28 19:47:49.7532|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2022-11-28 19:48:00.9065|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2022-11-28 19:48:00.9179|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2023-03-08 16:50:05.2808|INFO|TestAPI.Controllers.ProfileController|API Execution Started
+2023-03-08 16:50:05.4194|INFO|TestAPI.Controllers.ProfileController|API Execution Ends
+2023-03-12 22:17:57.6164|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-12 22:17:58.4328|ERROR|InterviewAPI.Filter.AppException|Error While Saving Details To File  : System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\JSON12032023.txt\{"FirstName":"string","LastName":"string"}'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String fileName, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 11
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String fileName, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntiry) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-12 22:18:25.7822|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-12 22:18:25.9050|ERROR|InterviewAPI.Filter.AppException|Error While Saving Details To File  : System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\JSON12032023.txt\{"FirstName":"Sanjay","LastName":"Kumar"}'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String fileName, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 11
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String fileName, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntiry) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-12 22:19:31.1212|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-12 22:21:59.4957|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-12 22:22:04.1227|ERROR|InterviewAPI.Filter.AppException|Error While Saving Details To File  : System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.IO.Path.Combine(String path1, String path2)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String fileName, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 11
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String fileName, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntiry) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-12 22:22:17.1205|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-12 22:25:39.2997|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-12 22:25:45.1098|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-12 22:28:02.3567|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-12 22:28:02.4239|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-12 22:28:28.3158|ERROR|InterviewAPI.Controllers.PersonController|Error Ocurred
+2023-03-12 23:21:37.8594|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-12 23:21:37.9309|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 00:30:56.2805|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 00:30:56.3902|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 00:49:34.9903|ERROR|InterviewAPI.Controllers.PersonController|Error Ocurred
+2023-03-13 17:17:19.3854|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 17:17:19.4584|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 17:22:20.0419|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 17:22:20.0419|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 17:22:40.0340|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 17:22:40.0340|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 17:38:25.1314|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 17:38:25.1440|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 18:28:42.1235|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 18:28:42.1235|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 22:32:45.4636|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 22:32:45.4636|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 22:33:11.8577|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 22:33:11.8577|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 22:34:12.6265|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 22:34:12.6265|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 22:36:32.6872|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 22:36:32.6872|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 22:41:27.0906|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 22:41:27.0906|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 22:58:22.6550|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 22:58:22.6550|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 23:13:50.5366|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 23:13:50.5366|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 23:15:02.7745|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 23:15:02.7763|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 23:19:02.0343|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 23:19:02.0437|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 23:47:20.1246|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 23:47:20.1246|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-13 23:59:40.9878|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-13 23:59:40.9878|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 00:07:58.3045|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 00:07:58.3081|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 17:09:05.2741|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:09:05.7047|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON14032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-14 17:09:37.1293|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:09:57.5704|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON14032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-14 17:10:47.6837|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:10:47.7777|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON14032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-14 17:14:51.9127|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:14:52.0023|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON14032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-14 17:15:57.0212|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:15:57.1125|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON14032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-14 17:16:33.1811|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:16:33.2629|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON14032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-14 17:18:28.9609|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:18:29.0542|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON14032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-14 17:21:30.2533|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:21:30.3512|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON14032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-14 17:23:29.8673|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:23:29.9638|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 17:23:44.4392|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 17:23:44.4392|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 18:39:45.4992|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 18:39:45.6820|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 18:40:13.7600|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 18:40:13.7600|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 18:41:48.7185|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 18:41:48.7185|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 18:50:21.6278|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 18:50:21.6355|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:25:17.0041|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:25:17.0104|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:25:33.3492|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:25:33.3492|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:49:42.2051|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:49:42.2051|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:54:51.6105|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:54:51.6105|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:55:55.9635|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:55:55.9635|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:58:22.3735|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:58:22.3735|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:58:43.8091|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:58:43.8091|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:59:09.0931|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:59:09.0931|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:59:16.8383|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:59:16.8383|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 21:59:53.2111|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 21:59:53.2111|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 22:15:24.7421|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 22:15:24.7421|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 22:18:17.1201|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 22:18:17.1201|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 22:21:29.1968|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 22:21:29.1968|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 22:25:20.0710|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 22:25:20.0710|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-14 22:39:25.2749|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-14 22:39:25.2890|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 00:56:16.6882|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 00:56:16.6997|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 01:06:16.7859|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 01:06:16.7903|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 02:10:52.0672|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 02:10:52.2290|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 02:11:42.2742|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 02:11:42.2742|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 16:18:28.7539|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 16:18:29.2643|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON15032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-15 16:19:11.0928|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 16:19:11.1763|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 16:19:44.9348|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 16:19:45.2350|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON15032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-15 16:21:48.5280|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 16:21:48.7865|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON15032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-15 16:22:39.1369|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 16:22:39.2346|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON15032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-15 16:23:04.0985|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 16:23:04.2129|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON15032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-15 16:25:06.0775|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 16:25:06.1784|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON15032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-15 16:25:55.8365|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 16:25:55.9590|ERROR|InterviewAPI.Filter.AppException|Error Details : System.UnauthorizedAccessException: Access to the path 'C:\JSON15032023.txt' is denied.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.AppendText(String path)
+   at ServiceLayer.PersonDetails.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\DataAccessLayer\PersonDetails.cs:line 13
+   at Repository.Classes.PersonRepository.SaveDataToFile(String _serPersonEntity, String filePath) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\Repository\Classes\PersonRepository.cs:line 16
+   at InterviewAPI.Controllers.PersonController.SavePersonDetails(PersonEntity _personEntity) in D:\SampleCode\TestProject-main\InterviewAPI\InterviewAPI\InterviewAPI\Controllers\PersonController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2023-03-15 20:57:20.7480|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 20:57:20.8002|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 20:57:53.5335|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 20:57:53.5335|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 20:58:59.0936|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 20:58:59.1344|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 21:05:15.2014|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:06:50.7309|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:15:13.5351|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:15:13.6424|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 21:16:31.3329|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:16:31.3575|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 21:16:49.9410|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:16:49.9654|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 21:19:46.4159|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:19:46.4435|INFO|InterviewAPI.Controllers.PersonController|Execution Ends
+2023-03-15 21:32:27.3426|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:32:49.1590|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:36:11.5707|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 21:43:51.2211|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 22:04:55.7319|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 22:05:05.3707|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 22:48:26.6912|INFO|InterviewAPI.Controllers.PersonController|Execution Starts
+2023-03-15 22:49:51.7954|INFO|InterviewAPI.Controllers.PersonController|Execution Starts

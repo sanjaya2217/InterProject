@@ -1,0 +1,12 @@
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+E:\Tutorial\WebAPI\TestAPI\TestAPI\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
